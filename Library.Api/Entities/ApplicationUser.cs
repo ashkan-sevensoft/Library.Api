@@ -10,5 +10,5 @@ public class ApplicationUser : IdentityUser
     /// <summary>
     /// نام و نام خانوادگی
     /// </summary>
-    public string FullName { get; set; } = string.Empty;
+    public string FullName { get;  set; } = string.Empty;
 }

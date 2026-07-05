@@ -5,6 +5,7 @@
 /// </summary>
 public class Book
 {
+ 
     /// <summary>
     /// شناسه
     /// </summary>
@@ -19,4 +20,6 @@ public class Book
     /// نویسنده
     /// </summary>
     public string Author { get; set; } = string.Empty;
+
+    //public StatusEnum status { get; set; }
 }
