@@ -22,4 +22,8 @@ public class Book
     public string Author { get; set; } = string.Empty;
 
     //public StatusEnum status { get; set; }
+
+    public Guid? FirstImageFileId { get; set; }
+
+    //public MediaFile FirstImageFile { get; set; }
 }

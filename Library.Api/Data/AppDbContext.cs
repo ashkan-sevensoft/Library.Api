@@ -12,4 +12,5 @@ public class AppDbContext : IdentityDbContext<ApplicationUser>
     }
 
     public DbSet<Book> Books => Set<Book>();
+    public DbSet<MediaFile> MediaFiles => Set<MediaFile>();
 }
